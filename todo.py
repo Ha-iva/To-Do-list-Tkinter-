@@ -47,10 +47,10 @@ def update_task():
 
 
 
-icon=PhotoImage(file="/vscode/Codsoft/logo.png")
+icon=PhotoImage(file="logo.png")
 root.iconphoto(False,icon)
 
-top_image=PhotoImage(file="/vscode/Codsoft/bg3.png")
+top_image=PhotoImage(file="bg3.png")
 
 bg_label = Label(root, image=top_image)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
